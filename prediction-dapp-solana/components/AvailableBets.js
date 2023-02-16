@@ -68,7 +68,7 @@ const AvailableBets = ({
             </div>
             <div className={styles.currentStockPrice}>
               <p className={styles.currentStockPriceTitle}>
-                AUTHORITY'S GUESS
+                AUTHORITY&apos;S GUESS
               </p>
               <p className={styles.currentStockPriceAmount}>{bet.predictionA.price.toString()} $</p>
             </div>
@@ -86,7 +86,7 @@ const AvailableBets = ({
             </div>
             <div className={styles.currentStockPrice}>
               <p className={styles.currentStockPriceTitle}>
-                CHALLENGER'S GUESS
+                CHALLENGER&apos;S GUESS
               </p>
               <p className={styles.currentStockPriceAmount}>{bet.predictionB?`${bet.predictionB.price.toString()} $`:"N/A"}</p>
             </div>
